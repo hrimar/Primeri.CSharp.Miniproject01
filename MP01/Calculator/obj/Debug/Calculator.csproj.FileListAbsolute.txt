@@ -1,0 +1,14 @@
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Calculator.exe.config
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Calculator.exe
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Calculator.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\obj\Debug\Calculator.exe
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\obj\Debug\Calculator.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\UserInput.dll
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\UserInput.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\About.dll
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\About.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Colors.dll
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Colors.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Calculations.dll
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Debug\Calculations.pdb
