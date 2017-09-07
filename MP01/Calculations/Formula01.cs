@@ -6,15 +6,26 @@ using System.Threading.Tasks;
 
 namespace Calculations
 {
+    /// <summary>
+    /// Клас за формула за обикнвенна строителна яма (Формула 01)
+    /// </summary>
     public class Formula01 
     {
         // Библиотеки:
         private Colors.ForCLI c = new Colors.ForCLI();
 
+        /// <summary>
+        /// Конструктор на Формула 01
+        /// </summary>
         public Formula01() // Формула за обикновенна строителна яма
-        { }
+        {
+        }
 
         // Парсване
+        /// <summary>
+        /// Метод за пресмятане на Формула 01
+        /// </summary>
+        /// <param name="userInput">Това е цялата команда с параметри въведена от потребителя</param>
         public void Calc(string userInput)
         {
             try
@@ -47,7 +58,12 @@ namespace Calculations
             catch { }
         }
 
-        // Изчисление и изписване
+        /// <summary>
+        /// Вътрешен метод за пресмятане на Формула 01, след парсване на командата от потребителя
+        /// </summary>
+        /// <param name = "param">Това е масив от стрингове, който съдържа командата с параметрите от потребителя</param>
+        /// <param name = "result">В тази променлива ще бъде върнат резултата от формулата</param>
+        /// <returns>Метода връща true при успешно изпълнение</returns>
         private bool runCalculations(string[] param, out double result)
         {
             try
@@ -71,7 +87,9 @@ namespace Calculations
             return false;
         }
 
-        // Помощ за командата
+        /// <summary>
+        /// Вътрешен метод показващ синтаксиса на командния ред
+        /// </summary>
         private void Hepl()
         {
             c.Result(); Console.Write("[яма]");

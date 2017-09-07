@@ -19,7 +19,8 @@ namespace UserInput
 
         public void sayHello()
         {
-            c.Default();  Console.WriteLine("Добре дошли в " + about.shortName+"\n"+about.version+"\n");
+            c.Default();
+            Console.WriteLine("Добре дошли в " + about.shortName+"\n"+about.version+"\n");
         }
         public void getUserCommands()
         {           
@@ -37,10 +38,24 @@ namespace UserInput
                 //    c.Default();  Console.Write("Стартирана е ");
                 //    c.Result(); Console.WriteLine("Команда1");
                 //}
-                if (command.ToLower().Contains("яма")) calc.F01.Calc(command);
+                if (command.ToLower().Contains("яма"))      calc.F01.Calc(command);
+                if (command.ToLower().Contains("въгъл"))    calc.F02.Calc(command);
+                if (command.ToLower().Contains("иъгъл"))    calc.F03.Calc(command);
+                if (command.ToLower().Contains("съгъл"))    calc.F04.Calc(command);
+                if (command.ToLower().Contains("изкоп"))    calc.F05.Calc(command);
 
-                if (command.ToLower().Contains("команда2")) Console.WriteLine("Стартирана е команда2");
-                if (command.ToLower().Contains("команда3")) Console.WriteLine("Стартирана е команда3");
+                if (command.ToLower().Contains("помощ") ||
+                    command.ToLower() == "п")               calc.commands();
+
+                if (command.ToLower() == "изчисти" ||
+                    command.ToLower() == "и")
+                {
+                    Console.Clear();
+
+                    c.Default();
+                    Console.WriteLine("Добре дошли в " + about.shortName + "\n" + about.version + "\n");
+                }
+
 
             } while (command.ToLower() != "изход");
         }

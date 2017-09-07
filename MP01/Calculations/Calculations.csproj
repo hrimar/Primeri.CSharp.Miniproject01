@@ -42,6 +42,10 @@
   <ItemGroup>
     <Compile Include="Calculations.cs" />
     <Compile Include="Formula01.cs" />
+    <Compile Include="Formula02.cs" />
+    <Compile Include="Formula03.cs" />
+    <Compile Include="Formula04.cs" />
+    <Compile Include="Formula05.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
